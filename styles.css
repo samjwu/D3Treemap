@@ -2,6 +2,7 @@ html,
 body {
     margin: 0;
     padding: 0;
+    background: black;
 }
 
 body {
@@ -11,4 +12,39 @@ body {
 #title {
     font-size: 2rem;
     margin-bottom: 1rem;
+    color: white;
+}
+
+#description {
+    margin-bottom: 1rem;
+    color: white;
+}
+
+svg {
+    font-size: 0.7rem;
+    text-align: center;
+    display: block;
+    margin: auto;
+}
+
+.tile-text {
+    fill: white;
+}
+
+.tooltip {
+    position: absolute;
+    padding: 0.5rem;
+    background: black;
+    color: white;
+    pointer-events: none;
+}
+
+#legend {
+    font-size: 1rem;
+    text-align: center;
+    display: block;
+    margin: auto;
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+    fill: white;
 }
