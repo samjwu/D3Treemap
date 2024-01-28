@@ -29,3 +29,9 @@ const LEGEND_COLORS = [
     '#280080',
     '#580080',
 ]
+const LEGEND_OFFSET = 10;
+const LEGEND_RECT_SIZE = 15;
+const LEGEND_H_SPACING = 150;
+const LEGEND_V_SPACING = 10;
+const LEGEND_TEXT_X_OFFSET = 3;
+const LEGEND_TEXT_Y_OFFSET = -2;
